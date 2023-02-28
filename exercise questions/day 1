@@ -1,0 +1,48 @@
+⚪#day 1-1 exercise 
+
+#Write your code below this line 👇
+print('Day-1 Python print function')
+print('The function is declared like this:')
+print("print('what to print')")
+⚪code : https://replit.com/@appbrewery/day-1-1-test-your-code
+
+⚪#day 1-2 exercise 
+
+#Fix the code below 👇
+
+print("Day 1 - String Manipulation")
+print("String Concatenation is done with the "+" sign.")
+print('e.g. print("Hello " + "world")')
+print("New lines can be created with a backslash and n.")
+⚪code : https://replit.com/@saichandratejas/day-1-2-exercise#main.py
+
+⚪#day 1-3 exercise
+
+#Write your code below this line 👇
+print(len(input("Enter your name ")))
+⚪code:https://replit.com/@saichandratejas/day-1-3-exercise#main.py
+
+⚪#day 1-4 exercise
+
+# 🚨 Don't change the code below 👇
+a = input("a: ")
+b = input("b: ")
+# 🚨 Don't change the code above 👆
+
+####################################
+#Write your code below this line 👇
+
+c=a
+a=b
+b=c
+
+
+
+#Write your code above this line 👆
+####################################
+
+# 🚨 Don't change the code below 👇
+print("a: " + a)
+print("b: " + b)
+⚪code : https://replit.com/@saichandratejas/day-1-4-exercise#main.py
+
