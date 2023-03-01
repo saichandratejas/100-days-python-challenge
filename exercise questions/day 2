@@ -1,0 +1,112 @@
+⚪ # Exercise 2.1
+
+#If the bill was $150.00, split between 5 people, with 12% tip. 
+
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+
+#Write your code below this line 👇
+print("Welcome to the tip calculator!")
+bill_amt = float(input("What was the total bill? $"))
+tip_amt = int(input("How much tip would you like to give? 10, 12, or 15? "))
+split_ppl = int(input("How many people to split the bill? "))
+bill_tip_split = float((bill_amt / split_ppl) * (1+tip_amt/100))
+print("Each person should pay: $",round(bill_tip_split,2))
+
+⚪ My Code : https://replit.com/@reyrinbafs/tip-calculator-start#main.py
+
+⚪ # Exercise 2.1.1
+
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+
+# 🚨 Don't change the code above 👆
+first_digit=two_digit_number[0] 
+second_digit=two_digit_number[1]
+result=int(first_digit) + int(second_digit)
+print(result)
+print(3 * 3 + 3 / 3 - 3)
+
+####################################
+#Write your code below this line 👇
+
+⚪ My Code : https://replit.com/@saichandratejas/day-2-1-exercise#main.py
+
+
+⚪ # Exercise 2-Start
+
+#Data Types
+print(len("1234"))
+a="hello"
+print(type(a))
+a=input("What is ur name!?")
+print(len(a))
+b=("My name is :"+a)
+c=len("11111")
+type(a)
+
+a=len(input("What is ur name "))
+conversion=str(a)
+print("Your name has "+conversion+" characters")
+print(70 + float("123456.00"))
+
+⚪ My Code : https://replit.com/@saichandratejas/day-2-1-exercise#main.py
+
+⚪ # Exercise 2-2-exercise
+
+# 🚨 Don't change the code below 👇
+height = float(input("enter your height in m: "))
+weight = int(input("enter your weight in kg: "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+bmi=weight/(height**height)
+print(int(bmi))
+#f-string
+a=100
+b=1.22
+c=True
+print(f"your score is {a,b,c}")
+
+⚪ My Code : https://replit.com/@saichandratejas/day-2-2-exercise#main.py
+
+
+⚪ # Exercise 2-3-exercise
+
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+age_as_int=int(age)
+years_remaining= 90-(age_as_int)
+months_remaining= years_remaining * 12
+days_remaining= years_remaining *365
+weeks_remaining=years_remaining * 52
+print(f"you still have {years_remaining } Years , {months_remaining } Months , {days_remaining } Days,{weeks_remaining } Weeks remaining... soo dont waste ur fuckin life talking wid girls! :)")
+
+⚪ My Code : https://replit.com/@saichandratejas/day-2-3-exercise#main.py
+
+⚪ # Exercise Tip-Calculator
+
+#If the bill was $150.00, split between 5 people, with 12% tip. 
+
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+
+#Write your code below this line 👇
+print("Welcome to the tip calculator!")
+bill_amt = float(input("What was the total bill? $"))
+tip_amt = int(input("How much tip would you like to give? 10, 12, or 15? "))
+split_ppl = int(input("How many people to split the bill? "))
+bill_tip_split = float((bill_amt / split_ppl) * (1+tip_amt/100))
+print("Each person should pay: $",round(bill_tip_split,2))
+
+⚪ My Code : https://replit.com/@saichandratejas/tip-calculator-start#main.py
+
+My Code : https://replit.com/@saichandratejas/tip-calculator-start#main.py
+
