@@ -1,0 +1,113 @@
+⚪Day3-1-start:
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height >= 120:
+  print("You can ride the rollercoaster!")
+else:
+  print("You can't ride the rollercoaster!")
+  
+⚪ My Code: https://replit.com/@saichandratejas/day-3-start#main.py
+
+
+⚪Day3-1-exercise:
+# 🚨 Don't change the code below 👇
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+bill=0
+if size=="S":
+  bill+=15
+elif size=="M":
+  bill=bill+20
+else:
+  bill=bill+25
+if add_pepperoni=="Y":
+  if size=="S":
+    bill=bill+2
+  else:
+    bill=bill+3
+if extra_cheese=="Y":
+  bill=bill+1
+print(f"Your final price is $ {bill}")
+
+⚪ My Code: https://replit.com/@saichandratejas/day-3-1-exercise#main.py
+
+⚪Day3-2-exercise:
+# 🚨 Don't change the code below 👇
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+bmi=round(weight / height ** height)
+print(f"Your bmi score is {bmi}")
+if bmi <=18.5:
+  print("You are Underweight")
+elif bmi <25:
+  print("You have a Normal Weight")
+elif bmi <30:
+  print("You are Over Weight")
+elif bmi <35:
+  print("You are Obese")
+else:
+  print("You are Clinically Obese")
+  
+⚪ My Code: https://replit.com/@saichandratejas/day-3-2-exercise#main.py
+ 
+ ⚪Day3-3-exercise:
+ # 🚨 Don't change the code below 👇
+year = int(input("Which year do you want to check? "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+if year % 4 == 0:
+  print("It is a leap year")
+elif year % 100 != 0:
+  print("It is a leap year")
+elif year % 400 == 0:
+  print("It is a leap year")
+else:
+  print("It is not a leap year")
+ 
+⚪ My Code: https://replit.com/@saichandratejas/day-3-3-exercise#main.py
+
+⚪Day3-4-exercise:
+# 🚨 Don't change the code below 👇
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+bill = 0
+
+if size == "S":
+  bill += 15
+elif size == "M":
+  bill += 20
+else:
+  bill += 25
+
+if add_pepperoni == "Y":
+  if size == "S":
+    bill += 2
+  else:
+    bill += 3
+    
+if extra_cheese == "Y":
+  bill += 1
+  
+print(f"Your final bill is: ${bill}.")
+
+⚪ My Code: https://replit.com/@saichandratejas/day-3-4-exercise#main.py
+
+
